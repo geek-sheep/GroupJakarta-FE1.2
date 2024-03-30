@@ -23,6 +23,9 @@ function Nav() {
                     <li>
                         <Link to="/hooks" className="link">Hooks</Link>
                     </li>
+                    <li> 
+                     <Link to="/justin-jorgson-dela-pena" className="link">Justin Jorgson Dela Pena</Link>
+                    </li>
                 </ul>
             </div>
 
