@@ -6,7 +6,7 @@ import Template from "./components/Template";
 import Nav from "./components/navbar/Nav";
 import Footer from "./components/footer/Footer";
 import Map from "./components/pages/map/Map";
-import States from "./components/pages/states/States";
+import Vallesteros from "./components/pages/vallesteros/Vallesteros";
 import Effect from "./components/pages/useEffect/Effect";
 import Hooks from "./components/pages/hooks/Hooks";
 import Error from "./components/pages/error/Error";
@@ -25,7 +25,7 @@ function App() {
         {/* Using the Routes and Route components from react-router-dom */}
         <Routes>
           <Route path="/" element={<Template />}>
-            <Route path="/states" element={<States />} />
+            <Route path="/vallesteros" element={<Vallesteros />} />
             <Route path="/effect" element={<Effect />} />
             <Route path="/map" element={<Map />} />
             <Route path="/hooks" element={<Hooks />} />

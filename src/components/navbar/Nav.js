@@ -12,9 +12,6 @@ function Nav() {
             <div className="left">
                 <ul>
                     <li>
-                    <Link to="/states" className="link">States</Link>
-                    </li>
-                    <li>
                     <Link to="/effect" className="link">Effect</Link>
                     </li>
                     <li>
@@ -25,6 +22,9 @@ function Nav() {
                     </li>
                     <li> 
                      <Link to="/justin-jorgson-dela-pena" className="link">Justin Jorgson Dela Pena</Link>
+                    </li>
+                    <li>
+                    <Link to="/vallesteros" className="link">Kismet Pearl D. Vallesteros</Link>
                     </li>
                 </ul>
             </div>
